@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lugares Turísticos</title>
+     <style>
+/* =========================
+   BARRA DE NAVEGACIÓN
+========================= */
+
+.navbar {
+    background-color: #3419e4;
+    padding: 0.5em 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #2153f8;
+    color: #000;
+}
+
+
+/* =========================
+   BOTONES
+========================= */
+
+.boton {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 5px 10px;
+    background-color: #000fb0;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #2535e4;
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   ADAPTACIÓN PARA CELULAR
+========================= */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .navbar li {
+        margin: 3px 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        text-align: center;
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .boton {
+        width: 90%;
+        margin: 8px auto;
+        padding: 13px;
+        font-size: 16px;
+    }
+}
+</style>
+    <link rel="stylesheet" href="css/texto.css">
+    <link rel="stylesheet" href="css/img.css">
+
+</head>
+
+<body>
+    <center>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="lugares.html">Lugares turísticos</a></li>
+            <li><a href="gastro.html">Gastronomía</a></li>
+            <li><a href="acti.html">Actividades y experiencias</a></li>
+        </ul>
+    </div>
+
+    <h1>Lugares Turísticos de Puerto Vallarta</h1>
+
+    <p>
+        Puerto Vallarta cuenta con hermosos lugares turísticos que combinan
+        playas, naturaleza, cultura y paisajes.
+    </p>
+
+    <h2>Malecón</h2>
+
+    <p>
+        Es uno de los lugares más representativos de la ciudad, con
+        esculturas, restaurantes, tiendas y hermosos atardeceres.
+    </p>
+
+    <img src="img/malecon.jpg" alt="Malecón de Puerto Vallarta">
+
+    <h2>Los Arcos</h2>
+
+    <p>
+        Son formaciones rocosas frente a la costa donde se pueden apreciar
+        paisajes marinos y vida marina.
+    </p>
+
+    <img src="img/losarcos.avif" alt="Los Arcos de Puerto Vallarta">
+
+    <h2>Mirador del Cerro de la Cruz</h2>
+
+    <p>
+        Ofrece una vista panorámica de Puerto Vallarta y de la bahía.
+    </p>
+
+    <img src="img/mirador.png" alt="Mirador del Cerro de la Cruz">
+
+    <h2>Isla del Río Cuale</h2>
+
+    <p>
+        Es un espacio turístico con áreas verdes, artesanías y espacios culturales.
+    </p>
+
+    <img src="img/cuale.jpg" alt="Isla del Río Cuale">
+
+    <p>
+        Puerto Vallarta es un destino turístico lleno de playas, naturaleza,
+        cultura y hermosos paisajes. Sus diferentes lugares turísticos lo
+        convierten en un sitio ideal para conocer y disfrutar.
+    </p>
+    </center>
+</body>
+</html>
+

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gastronomía</title>
+     <style>
+/* =========================
+   BARRA DE NAVEGACIÓN
+========================= */
+
+.navbar {
+    background-color: #3419e4;
+    padding: 0.5em 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #2153f8;
+    color: #000;
+}
+
+
+/* =========================
+   BOTONES
+========================= */
+
+.boton {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 5px 10px;
+    background-color: #000fb0;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #2535e4;
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   ADAPTACIÓN PARA CELULAR
+========================= */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .navbar li {
+        margin: 3px 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        text-align: center;
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .boton {
+        width: 90%;
+        margin: 8px auto;
+        padding: 13px;
+        font-size: 16px;
+    }
+}
+</style>
+    <link rel="stylesheet" href="css/texto.css">
+    <link rel="stylesheet" href="css/img.css">
+
+</head>
+
+<body>
+    <center>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="lugares.html">Lugares turísticos</a></li>
+            <li><a href="gastro.html">Gastronomía</a></li>
+            <li><a href="acti.html">Actividades y experiencias</a></li>
+        </ul>
+    </div>
+
+    <h1>Gastronomía de Puerto Vallarta</h1>
+
+    <p>
+        La gastronomía de Puerto Vallarta se caracteriza por la combinación
+        de sabores tradicionales de Jalisco y productos frescos del mar.
+        Gracias a su ubicación en la costa del Pacífico, ofrece una gran
+        variedad de platillos elaborados con pescados, mariscos, frutas
+        tropicales y condimentos regionales.
+    </p>
+
+    <h2>Pescado zarandeado</h2>
+
+    <p>
+        Pescado preparado a las brasas con una mezcla de especias y salsas.
+    </p>
+
+    <img src="img/pescado.webp" alt="Pescado zarandeado">
+
+    <h2>Ceviche</h2>
+
+    <p>
+        Pescado o mariscos marinados con limón, jitomate, cebolla,
+        cilantro y otros ingredientes.
+    </p>
+
+    <img src="img/ceviche.webp" alt="Ceviche">
+
+    <h2>Camarones al ajillo</h2>
+
+    <p>
+        Camarones cocinados con ajo y mantequilla, acompañados de arroz
+        o verduras.
+    </p>
+
+    <img src="img/camarones.jpg" alt="Camarones al ajillo">
+
+    <h2>Pescado a la talla</h2>
+
+    <p>
+        Pescado asado con una salsa condimentada que le da un sabor especial.
+    </p>
+
+    <img src="img/pescado_talla.webp" alt="Pescado a la talla">
+
+    <h2>Tacos de pescado</h2>
+
+    <p>
+        Tortillas rellenas de pescado, acompañadas de verduras y salsas.
+    </p>
+
+    <img src="img/tacos.webp" alt="Tacos de pescado">
+
+    <h2>Bebidas</h2>
+
+    <p>
+        Entre las bebidas se encuentran las aguas frescas de frutas
+        tropicales, como mango, jamaica y limón.
+    </p>
+
+    <img src="img/aguas.webp" alt="Aguas frescas">
+
+    <p>
+        La gastronomía de Puerto Vallarta ofrece una gran variedad de
+        sabores que combinan productos del mar con ingredientes
+        tradicionales de la región.
+    </p>
+    </center>
+</body>
+</html>

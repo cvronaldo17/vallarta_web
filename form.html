@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tareas</title>
+        <style>
+            .navbar {
+    background-color: #3419e4; 
+    padding: 0.5em 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+
+.navbar a:hover {
+    background-color: #2153f8; 
+    color: #000;
+}
+
+    .boton {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  margin: 5px 10px;
+  background-color: #000fb0; 
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.boton:hover {
+  background-color: #2535e4;
+  transform: scale(1.1);
+}
+        </style>
+
+        <link rel="stylesheet" href="css/texto.css">
+        <link rel="stylesheet" href="css/img.css">
+        <link rel="stylesheet" href="css/forms.css">
+
+        <center>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="lugares.html">Lugares turisticos</a></li>
+                <li><a href="gastro.html">Gastronomia</a></li>
+                <li><a href="acti.html">Actividades y experiencias</a></li>
+            </ul>
+        </div><br>
+        </center>
+    </head>
+    <body>
+        <center>
+            <h1>Cuentamos sobre ti</h1>
+                <h2>Ayudanos a que tu visita sea una experiencia inolvidable</h2>
+                <br>
+                <form id="Formulario">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre"><br>
+                    <label for="pr1">¿Que tipo de actividades disfrutas mas durante las vacaciones?</label><br>
+                    <select id="pr1">
+                        <option value="r1">Actividades en la playa</option>
+                        <option value="r2">Aventuras y deportes extremos</option>
+                        <option value="r3">Recorridos culturales e históricos</option>
+                        <option value="r4">Actividades relajantes</option>
+                    </select><br>
+
+                    <label for="pr2">¿Qué tipo de playa prefieres visitar?</label><br>
+                    <select id="pr2">
+                        <option value="r1">Playas tranquilas para descansar</option>
+                        <option value="r2">Playas con actividades acuáticas</option>
+                        <option value="r3">Playas rodeadas de naturaleza</option>
+                        <option value="r4">Playas con restaurantes y servicios</option>
+
+                    </select><br>
+                    <label for="pr3">¿Qué actividad acuática te gustaría realizar?</label><br>
+                    <select id="pr3">
+                        <option value="r1">Paseo en lancha</option>
+                        <option value="r2">Snorkel</option>
+                        <option value="r3">Paddleboard</option>
+                        <option value="r4">Paseo en kayak</option>
+
+                    </select><br>
+                    <label for="pr4">¿Qué tipo de experiencia gastronómica prefieres?</label><br>
+                    <select id="pr4">
+                        <option value="r1">Probar mariscos y pescados</option>
+                        <option value="r2">Disfrutar de la comida típica mexicana</option>
+                        <option value="r3">Visitar restaurantes frente al mar</option>
+                        <option value="r4">Probar comida internacional</option>
+
+                    </select><br>
+                    <label for="pr5">¿Qué lugares te gustaría conocer en Puerto Vallarta?</label><br>
+                    <select id="pr5">
+                        <option value="r1">El Malecón</option>
+                        <option value="r2">El centro histórico</option>
+                        <option value="r3">Playas escondidas</option>
+                        <option value="r4">Jardines y espacios naturales</option>
+                    </select><br>
+                    <label for="pr6">¿Qué tipo de aventura te llama más la atención?</label><br>
+                    <select id="pr6">
+                        <option value="r1">Tirolesas en la selva</option>
+                        <option value="r2">Caminatas por la naturaleza</option>
+                        <option value="r3">Excursiones en barco</option>
+                        <option value="r4">Recorridos por montañas</option>
+                    </select><br>
+
+                    <label for="pr7">¿Con quién sueles realizar tus viajes?</label><br>
+                    <select id="pr7">
+                        <option value="r1">Familia</option>
+                        <option value="r2">Amigos</option>
+                        <option value="r3">Pareja</option>
+                        <option value="r4">Solo/a</option>
+                    </select><br>
+                    <label for="pr8">¿Qué ambiente prefieres durante tus vacaciones?</label><br>
+                    <select id="pr8">
+                        <option value="r1">Tranquilo y relajado</option>
+                        <option value="r2">Divertido y con mucha actividad</option>
+                        <option value="r3">Natural y alejado de la ciudad</option>
+                        <option value="r4">Cultural y tradicional</option>
+                    </select><br>
+                    <label for="pr9">¿Qué tipo de recorrido turístico te interesaría más?</label><br>
+                    <select id="pr9">
+                        <option value="r1">Tour por el centro de Vallarta</option>
+                        <option value="r2">Excursión a playas cercanas</option>
+                        <option value="r3">Recorrido gastronómico</option>
+                        <option value="r4">Tour de naturaleza y aventura</option>
+                    </select><br>
+                    <label for="pr10">¿Qué es lo que más valoras al elegir una actividad turística?</label><br>
+                    <select id="pr10">
+                        <option value="r1">Que sea económica</option>
+                        <option value="r2">Que sea divertida</option>
+                        <option value="r3">Que permita conocer nuevos lugares</option>
+                        <option value="r4">Que sea relajante</option>
+                    </select><br>
+                    <a href="index.html" class="boton">Enviar</a>
+                </form>

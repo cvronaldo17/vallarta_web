@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vallarta_Web</title>
+        <style>
+/* =========================
+   BARRA DE NAVEGACIÓN
+========================= */
+
+.navbar {
+    background-color: #3419e4;
+    padding: 0.5em 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #2153f8;
+    color: #000;
+}
+
+
+/* =========================
+   BOTONES
+========================= */
+
+.boton {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 5px 10px;
+    background-color: #000fb0;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #2535e4;
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   ADAPTACIÓN PARA CELULAR
+========================= */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .navbar li {
+        margin: 3px 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        text-align: center;
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .boton {
+        width: 90%;
+        margin: 8px auto;
+        padding: 13px;
+        font-size: 16px;
+    }
+}
+</style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/texto.css">
+        <link rel="stylesheet" href="css/img.css">
+        
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="lugares.html">Lugares turisticos</a></li>
+                <li><a href="gastro.html">Gastronomia</a></li>
+                <li><a href="acti.html">Actividades y experiencias</a></li>
+            </ul>
+        </div><br>
+
+    </head>
+    <body>
+        <center>
+        
+            <h1>VALLARTA WEB</h1>
+                <h2>Descubre la magia de Puerto Vallarta</h2>
+                <p>Sumergete en un paraíso donde el mar, la naturaleza y
+                la cultura se unen para crear experiencias inolvidables. 
+                Explora sus hermosas playas, disfruta de su gastronomía y
+                 déjate sorprender por uno de los destinos más encantadores de Jalisco.
+                Descubre uno de los destinos turísticos más encantadores de Jalisco, donde las playas doradas, las aguas del Pacífico y los paisajes naturales crean un escenario único. Puerto Vallarta combina la belleza de sus costas con la riqueza de la cultura mexicana, una gastronomía llena de sabor y
+                experiencias que hacen de cada visita un recuerdo especial.</p>
+                <br>
+               
+            <img src="img/img1.jpg">
+
+        <footer>
+            <h2>Puerto Vallarta, Jalisco</h2>
+
+        <p>
+            Un destino donde el mar, la cultura y la naturaleza
+            se encuentran. Descubre sus playas, gastronomía
+            y experiencias inolvidables.
+        </p>
+
+        <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Puerto+Vallarta+Jalisco" role="button">Ubicacion</a>
+        </a>
+        <p class="frase-footer">
+            "Donde el azul del mar se encuentra con la magia de Jalisco."
+        </p>
+</footer>
+        </center>
+    </body>
+</html>

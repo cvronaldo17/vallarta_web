@@ -1,0 +1,113 @@
+
+/* FONDO DEL FORMULARIO */
+#Formulario {
+    max-width: 750px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #5adffd;
+    border-radius: 22px;
+    box-shadow: 0 10px 35px rgba(0, 80, 120, 0.12);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #173b56;
+    box-sizing: border-box;
+}
+
+/* ETIQUETAS Y PREGUNTAS */
+#Formulario label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #124765;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* CAMPOS DE TEXTO Y LISTAS */
+#Formulario input[type="text"],
+#Formulario select {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1.5px solid #d4e7ed;
+    border-radius: 11px;
+    background: #f5fbfd;
+    color: #36566b;
+    font-size: 15px;
+    font-family: inherit;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+/* EFECTO AL SELECCIONAR UN CAMPO */
+#Formulario input[type="text"]:focus,
+#Formulario select:focus {
+    border-color: #13a5b7;
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(19, 165, 183, 0.12);
+}
+
+/* EFECTO AL PASAR EL CURSOR */
+#Formulario input[type="text"]:hover,
+#Formulario select:hover {
+    border-color: #62c4d0;
+}
+
+/* ESPACIO ENTRE PREGUNTAS */
+#Formulario br {
+    line-height: 1.5;
+}
+
+/* BOTON ENVIAR */
+#Formulario .boton {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    padding: 16px;
+    background: linear-gradient(135deg, #087e9b, #19b5bd);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* EFECTO DEL BOTON */
+#Formulario .boton:hover {
+    background: linear-gradient(135deg, #05647e, #078e9d);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 130, 160, 0.25);
+}
+
+/* EFECTO AL PRESIONAR */
+#Formulario .boton:active {
+    transform: scale(0.98);
+}
+
+/* ADAPTACION PARA CELULARES */
+@media (max-width: 600px) {
+    #Formulario {
+        width: 94%;
+        margin: 25px auto;
+        padding: 22px;
+    }
+
+    #Formulario label {
+        font-size: 14px;
+    }
+
+    #Formulario input[type="text"],
+    #Formulario select {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    #Formulario .boton {
+        font-size: 16px;
+    }
+}
